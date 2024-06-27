@@ -43,7 +43,7 @@ public class SignupActivity extends BaseActivity {
                 if(task.isSuccessful())
                 {
                     Log.i(TAG,"onComplete: ");
-                    startActivity(new Intent(SignupActivity.this,IntroActivity.class));
+                    startActivity(new Intent(SignupActivity.this,LoginActivity.class));
                 }
                 else
                 {

@@ -28,7 +28,7 @@
                     android:id="@+id/logoutBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@tools:sample/avatars"
+
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -68,7 +68,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/grey_background"
                     android:padding="12dp"
-                    android:src="@tools:sample/avatars"
+
                     app:srcCompat="@drawable/settings" />
 
                 <LinearLayout
@@ -147,7 +147,7 @@
 
                         android:layout_marginStart="4dp"
                         android:layout_weight="1"
-                        android:background="10dp" />
+                        android:background="@null" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -171,7 +171,7 @@
                         android:layout_height="48dp"
                         android:layout_marginStart="4dp"
                         android:layout_weight="1"
-                        android:background="10dp" />
+                        android:background="@null" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -195,7 +195,7 @@
                         android:layout_height="48dp"
                         android:layout_marginStart="4dp"
                         android:layout_weight="1"
-                        android:background="4dp" />
+                        android:background="@null" />
                 </LinearLayout>
             </LinearLayout>
 
