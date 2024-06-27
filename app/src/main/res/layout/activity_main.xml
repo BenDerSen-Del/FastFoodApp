@@ -143,11 +143,11 @@
                     <Spinner
                         android:id="@+id/locationSp"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="48dp"
 
                         android:layout_marginStart="4dp"
                         android:layout_weight="1"
-                        android:background="4dp" />
+                        android:background="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -168,10 +168,10 @@
                     <Spinner
                         android:id="@+id/timeSp"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="48dp"
                         android:layout_marginStart="4dp"
                         android:layout_weight="1"
-                        android:background="4dp" />
+                        android:background="10dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -192,7 +192,7 @@
                     <Spinner
                         android:id="@+id/moneySp"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="48dp"
                         android:layout_marginStart="4dp"
                         android:layout_weight="1"
                         android:background="4dp" />
