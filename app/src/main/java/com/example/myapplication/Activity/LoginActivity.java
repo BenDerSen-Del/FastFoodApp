@@ -34,7 +34,7 @@ public class LoginActivity extends BaseActivity {
             if(!email.isEmpty() && !password.isEmpty()){
                 mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(LoginActivity.this, task -> {
                     if(task.isSuccessful()){
-                        startActivity(new Intent(LoginActivity.this,HomeActivity.class));
+                        startActivity(new Intent(LoginActivity.this,MainActivity.class));
                     }
                     else{
                         Toast.makeText(LoginActivity.this, "Authentication failed",Toast.LENGTH_SHORT).show();
@@ -44,7 +44,6 @@ public class LoginActivity extends BaseActivity {
             else{
                 Toast.makeText(LoginActivity.this,"Please fill username and password",Toast.LENGTH_SHORT).show();
             }
-
         });
         binding.passforgot.setOnClickListener(new View.OnClickListener() {
             @Override

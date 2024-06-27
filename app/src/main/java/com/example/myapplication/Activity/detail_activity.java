@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
-import com.example.foodorder.databinding.ActivityDetailBinding;
+import com.example.myapplication.databinding.ActivityDetailBinding;
 
 public class detail_activity extends AppCompatActivity {
 ActivityDetailBinding binding;
