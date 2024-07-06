@@ -17,7 +17,7 @@
             android:name=".Activity.ForgotPActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.MainActivity"
+            android:name=".Activity.IntroActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.SignupActivity"
@@ -30,7 +30,7 @@
             android:exported="false" />
 
         <activity
-            android:name=".Activity.IntroActivity"
+            android:name=".Activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

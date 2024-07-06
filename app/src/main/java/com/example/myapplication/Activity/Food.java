@@ -24,4 +24,6 @@ public class Food implements Serializable {
     public String getView() {
         return view;
     }
+
+    public Object getNumberInCart() {return total;}
 }
